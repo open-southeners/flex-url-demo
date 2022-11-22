@@ -88,7 +88,7 @@ const [useAfter, toggleUseAfter] = useToggle()
             <input type="date"
               name="created_at"
               id="created_at"
-              @change="(e) => filter('created_at').add(e.target.value, [useAfter ? 'after' : 'before'])"
+              @change="(e) => filter('created_at').add((e.target as HTMLInputElement)?.value, [useAfter ? 'after' : 'before'])"
               class="border p-1">
           </div>
         </div>
