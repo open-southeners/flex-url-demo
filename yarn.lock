@@ -533,7 +533,7 @@ fill-range@^7.0.1:
   dependencies:
     to-regex-range "^5.0.1"
 
-flex-url@^1.1.0, flex-url@^1.2.0:
+flex-url@^1.1.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/flex-url/-/flex-url-1.2.0.tgz#5bdc613dc43c659d83cbc342128f8c90993fab57"
   integrity sha512-xJo8gohrCQm0n8/qz58JqMd61ae6iYz9SCIN7qyOEc7npCVdauZYY+PJirt6wAZNp0V+R/slxPh5Zedk4941aQ==

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { useToggle } from '@vueuse/shared';
 import { ref } from 'vue';
-import { FilterableList, InertiaFilterableList } from '@flex-url/vue';
+import { FilterableList } from '@flex-url/vue';
 
 const location = ref(window.location.toString())
 
